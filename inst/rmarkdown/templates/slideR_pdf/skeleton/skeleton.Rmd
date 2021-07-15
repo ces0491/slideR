@@ -1,0 +1,40 @@
+---
+title: "title"
+subtitle: "subtitle"
+date: "`r Sys.Date()`"
+author: "Cesaire Tobias"
+institute: | 
+  | Fractal Value Advisors
+  | Dev
+output: fractalSlides::pdf
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE, size = "\\scriptsize")
+```
+
+## Slide title
+
+**Concept**
+
+- Definition of concept
+
+**Another concept**
+
+- Another definition.
+
+## Slide title
+
+- Here's some code with output
+
+```{r cars}
+summary(cars)
+```
+
+## Plot
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
